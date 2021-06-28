@@ -13,6 +13,7 @@
 		90F44282268515F400CF0159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F44280268515F400CF0159 /* Main.storyboard */; };
 		90F44284268515F800CF0159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F44283268515F800CF0159 /* Assets.xcassets */; };
 		90F44287268515F800CF0159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F44285268515F800CF0159 /* LaunchScreen.storyboard */; };
+		90F4428F2685162C00CF0159 /* BiometricHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4428E2685162C00CF0159 /* BiometricHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		90F44283268515F800CF0159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F44286268515F800CF0159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90F44288268515F800CF0159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F4428E2685162C00CF0159 /* BiometricHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				90F44283268515F800CF0159 /* Assets.xcassets */,
 				90F44285268515F800CF0159 /* LaunchScreen.storyboard */,
 				90F44288268515F800CF0159 /* Info.plist */,
+				90F4428E2685162C00CF0159 /* BiometricHelper.swift */,
 			);
 			path = "Ejemplo Biometria";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				90F4427F268515F400CF0159 /* ViewController.swift in Sources */,
 				90F4427B268515F400CF0159 /* AppDelegate.swift in Sources */,
+				90F4428F2685162C00CF0159 /* BiometricHelper.swift in Sources */,
 				90F4427D268515F400CF0159 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
